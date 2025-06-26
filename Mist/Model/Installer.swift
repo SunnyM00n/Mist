@@ -655,7 +655,9 @@ struct Installer: Decodable, Hashable, Identifiable {
     var name: String {
         var name: String = ""
 
-        if version.range(of: "^15", options: .regularExpression) != nil {
+        if version.range(of: "^26", options: .regularExpression) != nil {
+            name = "macOS Tahoe"
+        } else if version.range(of: "^15", options: .regularExpression) != nil {
             name = "macOS Sequoia"
         } else if version.range(of: "^14", options: .regularExpression) != nil {
             name = "macOS Sonoma"
@@ -703,7 +705,7 @@ struct Installer: Decodable, Hashable, Identifiable {
         // Device ID (Apple Silicon or Intel T2)
         // macOS Big Sur 11 or newer
         if
-            version.range(of: "^1[1-9]\\.", options: .regularExpression) != nil,
+            version.range(of: "^[1-2][1-6]\\.", options: .regularExpression) != nil,
             let deviceID: String = Hardware.deviceID,
             !deviceIDs.isEmpty,
             !deviceIDs.contains(deviceID) {
@@ -778,7 +780,7 @@ struct Installer: Decodable, Hashable, Identifiable {
     }
 
     var bigSurOrNewer: Bool {
-        version.range(of: "^1[1-9]\\.", options: .regularExpression) != nil
+        version.range(of: "^[1-2][1-6]\\.", options: .regularExpression) != nil
     }
 
     var beta: Bool {

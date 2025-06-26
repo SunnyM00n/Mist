@@ -11,7 +11,7 @@ extension String {
     /// App name
     static let appName: String = "mist"
     /// App identifier
-    static let appIdentifier: String = "com.ninxsoft.\(appName)"
+    static let appIdentifier: String = "com.floger.\(appName)"
     /// Helper identifier
     static let helperIdentifier: String = "\(appIdentifier).helper"
     /// Helper LaunchDaemon URL
@@ -19,7 +19,7 @@ extension String {
     /// Helper URL
     static let helperURL: String = "/Library/PrivilegedHelperTools/\(helperIdentifier)"
     /// Repository URL
-    static let repositoryURL: String = "https://github.com/ninxsoft/Mist"
+    static let repositoryURL: String = "https://github.com/SUNNYM00N/Mist"
     /// Filename template
     static let filenameTemplate: String = "Install %NAME% %VERSION%_%BUILD%"
     /// Firmware filename template

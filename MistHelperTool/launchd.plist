@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>com.ninxsoft.mist.helper</string>
+	<string>com.floger.mist.helper</string>
 	<key>MachServices</key>
 	<dict>
-		<key>com.ninxsoft.mist.helper</key>
+		<key>com.floger.mist.helper</key>
 		<true/>
 	</dict>
 	<key>AssociatedBundleIdentifiers</key>
 	<array>
-		<string>com.ninxsoft.mist</string>
+		<string>com.floger.mist</string>
 	</array>
 </dict>
 </plist>

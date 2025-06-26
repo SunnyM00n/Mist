@@ -17,12 +17,12 @@
 	</array>
 	<key>SMPrivilegedExecutables</key>
 	<dict>
-		<key>com.ninxsoft.mist.helper</key>
-		<string>anchor apple generic and identifier &quot;com.ninxsoft.mist.helper&quot; and certificate leaf[subject.OU] = &quot;7K3HVCLV7Z&quot;</string>
+		<key>com.floger.mist.helper</key>
+		<string>anchor apple generic and identifier &quot;com.floger.mist.helper&quot; and certificate leaf[subject.OU] = &quot;X598BAN4RS&quot;</string>
 	</dict>
+	<key>SUFeedURL</key>
+	<string>https://raw.githubusercontent.com/SUNNYM00N/Mist/main/appcast.xml</string>
 	<key>SUPublicEDKey</key>
 	<string>5keDBd5mvIAICok49UqfX9WE/HVJIpe0zQCfDDqmnMg=</string>
-	<key>SUFeedURL</key>
-	<string>https://raw.githubusercontent.com/ninxsoft/Mist/main/appcast.xml</string>
 </dict>
 </plist>
