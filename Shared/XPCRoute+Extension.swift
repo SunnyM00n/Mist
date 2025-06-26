@@ -9,7 +9,7 @@ import SecureXPC
 
 extension XPCRoute {
     /// Default XPC Route
-    static let commandRoute: XPCRouteWithMessageWithReply<HelperToolCommandRequest, HelperToolCommandResponse> = XPCRoute.named("com.ninxsoft.mist.helper")
+    static let commandRoute: XPCRouteWithMessageWithReply<HelperToolCommandRequest, HelperToolCommandResponse> = XPCRoute.named("com.floger.mist.helper")
         .withMessageType(HelperToolCommandRequest.self)
         .withReplyType(HelperToolCommandResponse.self)
 }
