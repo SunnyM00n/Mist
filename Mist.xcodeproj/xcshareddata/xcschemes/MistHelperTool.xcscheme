@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "39CF559C28614DD8006FB5D2"
-               BuildableName = "com.ninxsoft.mist.helper"
+               BuildableName = "com.floger.mist.helper"
                BlueprintName = "MistHelperTool"
                ReferencedContainer = "container:Mist.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "39CF559C28614DD8006FB5D2"
-            BuildableName = "com.ninxsoft.mist.helper"
+            BuildableName = "com.floger.mist.helper"
             BlueprintName = "MistHelperTool"
             ReferencedContainer = "container:Mist.xcodeproj">
          </BuildableReference>
@@ -63,7 +63,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "39CF559C28614DD8006FB5D2"
-            BuildableName = "com.ninxsoft.mist.helper"
+            BuildableName = "com.floger.mist.helper"
             BlueprintName = "MistHelperTool"
             ReferencedContainer = "container:Mist.xcodeproj">
          </BuildableReference>
